@@ -29,7 +29,7 @@ export default function Home() {
   const [oldVideoData, setOldVideoData] = React.useState<Boolean>(false);
   const [videoDownloadData, setVideoDownloadData] =
     React.useState<ytdl.MoreVideoDetails | null>(null);
-  const [downloadProgress, setDownloadProgress] = React.useState(20);
+  const [downloadProgress, setDownloadProgress] = React.useState(0);
   const [fileData, setFileData] = React.useState(null);
   React.useEffect(() => {
     AOS.init({ duration: 1200 });
