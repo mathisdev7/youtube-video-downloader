@@ -1,9 +1,3 @@
-My version of Discord.
-
-This project isn't finished.
-<br>
-<br>
-<br>
 The project is developed using Typescript, React, NextJS, and Tailwind CSS.
 
 Special thanks to shadcnui and aceternity for their invaluable utilities.
